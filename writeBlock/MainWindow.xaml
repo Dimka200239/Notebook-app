@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:writeBlock"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" MinHeight="466" MinWidth="800" Height="466" Width="800">
 
+    <Grid>
+        <Frame
+            Name="MainFrame"
+            NavigationUIVisibility="Hidden"
+            Source="Pages/SignInOrReg.xaml" />
     </Grid>
 </Window>
